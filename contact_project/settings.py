@@ -118,6 +118,14 @@ USE_I18N = True
 
 USE_TZ = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://contactbook786.azurewebsites.net/',
+    'http://contactbook786.azurewebsites.net/',
+    'https://contactbook786.azurewebsites.net',
+     'http://contactbook786.azurewebsites.net',
+    # Add more trusted IP addresses as needed
+]
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
